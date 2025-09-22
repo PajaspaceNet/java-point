@@ -83,6 +83,8 @@ Statement stmt = conn.createStatement();
 ResultSet rs = stmt.executeQuery("SELECT * FROM users");
 ```
 ### JPA (Hibernate)
+ORM (Object-Relational Mapping) – mapuje třídy na tabulky..<br>
+Používá anotace: @Entity, @Id, @Column..<br>
 ```java
 @Entity
 public class User {
