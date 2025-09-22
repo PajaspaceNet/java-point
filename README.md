@@ -3,6 +3,7 @@
 <pre>
 java-point/
 │── README.md              # shrnutí (JVM, JRE, JDK, build nástroje, Enterprise Java, JBoss)
+│── check_list_QA          #check list pro Aplikacniho Admina v Jave  
 │── basics/
 │   └── HelloWorld.java
 │── web/
