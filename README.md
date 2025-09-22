@@ -25,10 +25,45 @@ java-point/
 - **JDK** – JRE + vývojářské nástroje (`javac`, `javadoc`)
 - **Build nástroje** – Maven, Gradle
 
+## 2. PODROBNEJI
+**JVM** – spouští bytecode<br>
+JVM (Java Virtual Machine)<br>
+
+Spouští bytecode (soubor .class), který vzniká překladem .java zdrojového kódu.<br>
+
+Díky JVM je Java platformově nezávislá („Write once, run anywhere“).<br>
+
+Zajišťuje správu paměti (heap, stack, garbage collector).<br>
+
+**JRE (Java Runtime Environment)**
+
+Obsahuje JVM + standardní knihovny.<br>
+
+Stačí, pokud chceš pouze spouštět aplikace v Javě (bez kompilace).<br>
+
+**JDK (Java Development Kit)**
+
+Obsahuje JRE + vývojové nástroje (javac, javadoc, jarsigner atd.).<br>
+
+Potřebuješ ho pro vývoj aplikací<br>.
+
+📌 **Shrnutí:**
+
+**JVM** = běhový stroj
+
+**JRE** = běhové prostředí (JVM + knihovny)
+
+**JDK** = celé vývojářské prostředí (JRE + nástroje)
+
 ---
 
 ## 2. Enterprise Java
 ### Servlety
+
+Java třídy, které běží v servletovém kontejneru (Tomcat, Jetty, WildFly).<br>
+Zpracovávají HTTP požadavky a odpovědi.<br>
+Typicky metoda doGet() a doPost().<br>
+
 ```java
 @WebServlet("/hello")
 public class HelloServlet extends HttpServlet {
