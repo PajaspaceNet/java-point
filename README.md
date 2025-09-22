@@ -63,6 +63,14 @@ Potřebuješ ho pro vývoj aplikací<br>.
 ---
 
 ## 2. Enterprise Java
+
+**Specifikace , sluzby v Jave** <br>
+`JPA` = databáze,<br>
+`EJB` = business logika,<br>
+`CDI` = správa závislostí,<br>
+`JMS` = zprávy (fronty),<br>
+`JAX-RS` = REST API.<br>
+
 ### Servlety
 
 Java třídy, které běží v servletovém kontejneru (Tomcat, Jetty, WildFly).<br>
@@ -125,6 +133,7 @@ Aplikační server implementující Jakarta EE (dříve Java EE).<br>
 - Deployment: `.war`, `.ear`
 - Datasource přes JNDI
 - Umožňuje spustit enterprise aplikace s plnou podporou specifikace (JPA, EJB, CDI, JMS, JAX-RS…).
+  
 - Rozdíl vs. Spring: aplikační server vs. framework
 
 Deployment<br>
