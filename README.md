@@ -16,11 +16,11 @@ java-point/
 │   └── RestExample.java   # ukázka JAX-RS endpointu
 </pre>
 
-`JPA` → databáze pomocí objektů (ORM).
-`EJB` → enterprise logika (transakce, bezpečnost).
-`CDI` → dependency injection (správa závislostí).
-`JMS` → messaging, fronty, asynchronní zpracování.
-`JAX-RS` → REST API.
+* `JPA` → databáze pomocí objektů (ORM).
+* `EJB` → enterprise logika (transakce, bezpečnost).
+* `CDI` → dependency injection (správa závislostí).
+* `JMS` → messaging, fronty, asynchronní zpracování.
+* `JAX-RS` → REST API.
 
 ---
 
