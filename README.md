@@ -116,8 +116,24 @@ public class Service {
 ---
 
 ## 3. JBoss / WildFly
+Aplikační server implementující Jakarta EE (dříve Java EE).<br>
 - Deployment: `.war`, `.ear`
 - Datasource přes JNDI
-- Služby: **EJB**, **CDI**, **JMS**, **JAX-RS**
+- Umožňuje spustit enterprise aplikace s plnou podporou specifikace (JPA, EJB, CDI, JMS, JAX-RS…).
 - Rozdíl vs. Spring: aplikační server vs. framework
+
+Deployment<br>
+
+Aplikace se nasazuje jako:<br>
+**.war** – webová aplikace.<br>
+**.ear** – enterprise aplikace (obsahuje více modulů).<br>
+
+
+
+
+
+
+
+
+
 
