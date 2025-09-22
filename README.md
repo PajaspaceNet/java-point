@@ -93,8 +93,15 @@ public class User {
     private String name;
 }
 ```
+**Hibernate** je nejpoužívanější implementace JPA.
+
 
 ### Dependency Injection
+
+**Princip:** třída nedělá new, ale dostane závislosti zvenčí (IoC).<br>
+Např. pomocí anotace @Inject nebo @Autowired (Spring).<br>
+Výhoda: kód je snáze testovatelný, flexibilní, udržovatelný.<br>
+
 ```java
 public class Service {
     private final Repository repo;
