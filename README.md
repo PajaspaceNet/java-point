@@ -74,6 +74,9 @@ public class HelloServlet extends HttpServlet {
 ```
 
 ### JDBC
+API pro práci s databází.<br>
+Manuálně se řeší Connection, Statement, ResultSet.<br>
+
 ```java
 Connection conn = DriverManager.getConnection(url, user, pass);
 Statement stmt = conn.createStatement();
