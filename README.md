@@ -128,6 +128,7 @@ Aplikace se nasazuje jako:<br>
 **.war** – webová aplikace.<br>
 **.ear** – enterprise aplikace (obsahuje více modulů).<br>
 
+[vice o instalcich a jbossu  ZDE ](https://github.com/PajaspaceNet/jboss-basic-/tree/main)
 
 
 
